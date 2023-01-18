@@ -1,0 +1,257 @@
+body{
+    background: rgb(	243, 245, 252);
+}
+
+
+@media screen and (max-width: 640px) {
+    .logo{
+        margin-top: 25px;
+        width: 10%;
+        height: auto;
+       
+    }
+    .encriptador{
+        margin-top: 10px;
+        height: 500px;
+        display: inline-block;
+        width: auto;
+      
+    }
+    #encriptar{
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 30px;
+        color: 	rgb(10,56,113);
+        background: rgb(	243, 245, 252);
+        border: none;
+        width: 400px;
+        height: auto;
+    }
+    .aviso{
+        margin-left: 70px;
+    }
+    .botones{
+         display: inline-block;
+         border-radius: 10px;
+         height: 60px;
+         width: 200px;
+         margin-left: 100px;
+     }
+
+     .resultado{
+       margin-left: 30px;
+        background: white;
+        border-radius: 10px;
+       display: inline-block;
+        width: 400px;
+        height: 100px;
+        padding-top:100px;
+    }
+    #imgaen{
+       width: 0px;
+       height: 0px;    
+        }
+        .encriptado{
+            width: 390px;
+            height: 120px; 
+            margin-top: -97px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            color: 	rgb(10,56,113);
+        }
+        #boton3{
+         
+                color: 	rgb(10,56,113);
+                border-color: 	rgb(10,56,113);
+                  }
+  }
+  
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+    .logo{
+        margin-top: 25px;
+        margin-left: 40px;
+        width: 10%;
+        height: auto;
+       
+    }
+    .encriptador{
+        margin-top: 40px;
+        height: 400px;
+        width: 700px;
+        display: inline-block;
+     
+        
+      
+    }
+    #encriptar{
+        margin-left: 100px;
+        text-decoration: none;
+        font-size: 30px;
+        color: 	rgb(10,56,113);
+        background: rgb(	243, 245, 252);
+        border: none;
+        width: auto;
+        height: 280px;
+    }
+    .aviso{
+        margin-left: 100px;
+    }
+    .botones{
+         display: inline-block;
+         border-radius: 10px;
+         height: 60px;
+         width: 200px;
+         margin-left: 100px;
+     }
+     .resultado{
+        margin-top:20px ;
+        margin-left: 100px;
+        background: white;
+        border-radius: 10px;
+       display: inline-block;
+        width: 500px;
+        height: 100px;
+        padding-top:100px;
+    }
+      #imgaen{
+       width: 0px;
+       height: 0px;    
+        }
+ 
+        .encriptado{
+            width: 490px;
+            height: 120px; 
+            margin-top: -97px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            color: 	rgb(10,56,113);
+        }
+        #boton3{
+            margin-left: 150px;
+                color: 	rgb(10,56,113);
+                border-color: 	rgb(10,56,113);
+                  }
+              }
+  
+  
+  @media screen and (min-width: 1280px) {
+
+    .logo{
+        margin-top: 25px;
+        margin-left: 40px;
+        width: 10%;
+        height: auto;
+       
+    }
+    .encriptador{
+        margin-top: 100px;
+        height: 600px;
+        display: inline-block;
+        margin-left: 200px;
+        margin-right: 0px;
+        width: auto;
+        
+    
+     }  
+
+        #encriptar{
+            text-decoration: none;
+            font-size: 40px;
+            color: 	rgb(10,56,113);
+            background: rgb(	243, 245, 252);
+            border: none;
+            width: auto;
+            height: 405px;
+            
+        }
+        .botones{
+            margin-left: 80px;
+             display: inline-block;
+             border-radius: 10px;
+             height: 60px;
+             width: 200px;
+         }
+         .resultado{
+            margin-left: 200px;
+            background: white;
+            border-radius: 10px;
+            display: inline-block;
+            width: 350px;
+            height: 400px;
+            padding-top: 180px;
+        
+        }
+        #imgaen{
+            margin-bottom: 110px;
+            margin-top:-100px;
+            }
+            .encriptado{
+                width: 343px;
+            height:500px;
+            margin-top: -180px;
+            font-size: 40px;
+            border: none;
+            border-radius: 10px;
+            color: 	rgb(10,56,113);
+            }
+      #segunda{
+   display: none;
+      }
+      #segunda1{
+        display: none;
+      }
+      #boton3{
+  
+        color: 	rgb(10,56,113);
+        border-color: 	rgb(10,56,113);
+          }
+  }
+
+
+
+
+
+
+#boton1{
+background: rgb(10,56,113);
+color: white;
+border: none;
+
+}
+#boton1:hover{
+    background-color: rgb(102, 245, 149);
+    color: black;
+}
+#boton3:hover{
+    background-color: rgb(102, 245, 149);
+}
+#boton2{
+    color: 	rgb(10,56,113);
+    border-color: 	rgb(10,56,113);;
+}
+#boton2:hover{
+    background-color: rgb(102, 245, 149);
+    
+}
+textarea::placeholder{
+color:  rgb(10,56,113);
+}
+
+p{
+    color: rgb(73,80,87);
+    margin-bottom: 15px;
+}
+h1{
+    margin-top: -100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: 	rgb(52,58,64);
+}
+#segunda{
+    font-family: inherit;
+font-size:  16px;
+text-align: center;
+}

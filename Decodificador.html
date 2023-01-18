@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/DecodificadorStyles.css">
+    
+</head>
+<body>
+    <div class="logo">
+        <img class="logo1" src="assets/imagenes/Logo.png" alt=""></div>
+<div class="encriptador">
+<form >
+    <textarea id="encriptar" rows="9" cols="30" wrap="soft" placeholder="Escriba el texto aquí"></textarea>
+    <p class="aviso"><img src="assets/imagenes/Vector.png"> Solo letras minúsculas y sin acentos</p>
+	<input type="button"  class="botones" id="boton1" value="Encriptar" ></input> 
+    <input type="button"  class="botones" id="boton2" value="Desencriptar"></input>
+</form>
+
+   
+</div>
+
+<div class="resultado" id="resultado">
+    <textarea style="display :none;" rows="50" cols="30" wrap="soft" class="encriptado" id="encriptado"  type="text" id="msg"></textarea>
+    <img id="imgaen" src="assets/imagenes/Muñecoa.png" alt="">
+<h1 class="mensaje" id="segunda1"> Ningún mensaje fue encontrado</h1> 
+<p class="mensaje1" id="segunda">Ingresa el texto que desees encriptar o desencriptar. </p>
+<input type="button"  class="botones" id="boton3" value="Copiar" style="display :none;"></input>
+</div>
+    <script src="assets/js/DecodificadorJs.js"></script>
+</body>
+</html>
